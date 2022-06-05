@@ -1,0 +1,89 @@
+.body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.Statistic{
+    background: #FDF8F5;
+    height: 250px;
+}
+
+.Statistic__wrapper{
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    align-items: center;
+}
+
+.Statistic__block{
+}
+
+.Statistic__title{
+    font-family: 'Red Hat Display';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 70px;
+    color: #222222;
+    border-bottom: 3px solid;
+    text-align: center;
+}
+
+.Statistic__text{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #555555;
+    padding-top:30px;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    
+    .Statistic__title{
+        font-size: 40px;
+    }
+    
+    .Statistic__text{
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+    .Statistic__title{
+        font-size: 36px;
+    }
+    
+    .Statistic__text{
+        font-size: 14px;
+        line-height: 1px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .Statistic__wrapper{
+        display: flex;
+        justify-content: space-around;
+        height: 250px;
+        align-items: center;
+    }
+    
+    .Statistic__block{
+        width: 20%;
+    }
+    
+    .Statistic__title{
+        font-size: 24px;
+        line-height: 46px;
+    }
+    
+    .Statistic__text{
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+}

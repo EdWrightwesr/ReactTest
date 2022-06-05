@@ -1,0 +1,138 @@
+.body {
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .Header {
+    height: 140px;
+    position: relative;
+  }
+  
+  .container {
+  }
+  
+  .Header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6.9%;
+    margin-right: 7.2%;
+    align-items: center;
+    padding-top: 42px;
+  }
+  
+  .wrapper__active {
+    transform: translateX(0%) !important;
+  }
+  
+  .box {
+    background-color: #fff;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    transform: translateX(0%);
+    transition: 1s;
+  }
+  
+  .logo {
+    flex-basis: 10.3%;
+    flex-shrink: 2;
+  }
+  
+  .MenuBlock {
+    display: flex;
+    width: 70%;
+    align-items: center;
+  }
+  
+  .Burger {
+    display: none;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    gap: 3.8%;
+    flex-basis: 80%;
+    flex-shrink: 1;
+    padding: 0;
+  }
+  
+  .menu__list {
+    list-style-type: none;
+  }
+  
+  .menu__link {
+    text-decoration: none;
+    font-family: "Red Hat Display", "sans-serif";
+    font-size: 16px;
+    color: #222222;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    width: 113px;
+    padding: 0;
+  }
+  
+  .nav__list {
+    list-style-type: none;
+  }
+  
+  .nav__link {
+    text-decoration: none;
+  }
+  
+  @media (min-width: 480px) and (max-width: 767px) {
+    .MenuBlock {
+      display: none;
+    }
+  
+    .Burger {
+      display: flex;
+      justify-content: end;
+    }
+  
+    .images__burger {
+      width: 60px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .MenuBlock {
+      display: none;
+    }
+  
+    .Burger {
+      display: flex;
+      justify-content: end;
+    }
+  
+    .images__burger {
+      width: 50px;
+    }
+
+    .logo_img{
+      width: 150px;
+    }
+  }
+
+  @media (max-width: 280px) {
+    .MenuBlock {
+      display: none;
+    }
+  
+    .Burger {
+      display: flex;
+      justify-content: end;
+    }
+  
+    .images__burger {
+      width: 50px;
+    }
+
+    .logo_img{
+      width: 150px;
+    }
+  }
+  

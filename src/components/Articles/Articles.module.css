@@ -1,0 +1,184 @@
+.body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.Articles{
+    display: flex;
+    justify-content: space-between;
+    background: #F9F6F5;
+}
+
+
+.Article__wrapper{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 6.9%;
+}
+
+.itemOne{
+    width: 650px;
+    padding-top: 40px;
+    z-index: 2;
+}
+
+.headline{
+    Font-family: 'Red Hat Display';
+    font-weight: 500;
+    Font-size: 56px;
+    Line-height: 70px;
+    width: 95.5%;
+}
+
+.text{
+    Font-family: 'Red Hat Display';
+    font-weight: 400;
+    Font-size: 20px;
+    line-height: 32px;
+    width: 79.3%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.searchBlock{
+    position: relative;
+    display: flex;
+    width: 50.1%;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.search{
+    width: 100%;
+    height: 48px;
+    background: #FFFFFF;
+    border: none;
+    padding-left: 4.9%;
+    outline: none;
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.submit{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border: none;
+    margin-right: 2.4%;
+    cursor: pointer;
+    background: url(../../../public/static/search.svg);
+}
+
+.buttons{
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #402F2C;
+    padding: 16px 32px;
+    display: flex;
+    background: #402F2C;
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    width: 154px;
+    text-decoration: none;
+}
+
+
+.shop{
+    display: block;
+    height: 16px;
+}
+
+.imageJar{
+    position: absolute;
+    right: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    
+    .headline{
+        Font-size: 42px;
+        line-height: none!important;
+    }
+    
+    .text{
+        color: coral;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+    .itemOne{
+        width: 100%;
+        padding-top: 70px;
+    }
+    
+    .headline{
+        Font-size: 28px;
+        Line-height: 50px;
+        width: 70.5%;
+    }
+    
+    .text{
+        Font-size: 16px;
+        line-height: 32px;
+        width: 90.3%;
+    }
+
+    .searchBlock{
+        width: 70%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .itemOne{
+        width: 100%;
+        padding-top: 70px;
+    }
+    
+    .headline{
+        Font-size: 33px;
+        Line-height: 50px;
+        width: 95.5%;
+    }
+    
+    .text{
+        Font-size: 18px;
+        line-height: 28px;
+        width: 90.3%;
+    }
+
+    .searchBlock{
+        width: 70%;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 479px) {
+
+    .itemOne{
+        width: 100%;
+        padding-top: 70px;
+    }
+    
+    .headline{
+        Font-size: 33px;
+        Line-height: 50px;
+        width: 95.5%;
+    }
+    
+    .text{
+        Font-size: 18px;
+        line-height: 28px;
+        width: 90.3%;
+    }
+
+    .searchBlock{
+        width: 70%;
+    }
+}

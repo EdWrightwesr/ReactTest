@@ -1,0 +1,278 @@
+.body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Contents{
+    margin-top: 130px;
+    padding-bottom: 130px;
+}
+
+.Contents__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6.9%;
+    margin-right: 7.2%;
+    align-items: center;
+}
+
+.Contents__block{
+    padding-top: 45px;
+    width: 87.4%;
+    padding-left: 3.85%;
+}
+
+.Content__title{
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    width: 68.7%;
+}
+
+.Contents__alltext{
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #555555;
+    padding-top: 26.5px;
+}
+
+.Contents__text{
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 59px;
+    padding-bottom: 10px;
+}
+
+.Contents__textOne{
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #555555;
+}
+
+.buttons{
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #402F2C;
+    padding: 16px 32px;
+    display: flex;
+    background: #402F2C;
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    width: 154px;
+    text-decoration: none;
+    margin-top: 60px;
+}
+
+.books{
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.images{
+
+}
+
+.star__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-rating{
+    user-select: none;
+}
+
+.star{
+    font-size:  3rem;
+    color: #FFC046;
+    background-color: unset;
+    border: none;
+}
+
+.star:hover{
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .Contents__block{
+        padding-top: 1px;
+    }
+
+    .images{
+        width: 50%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .Content__title{
+        font-size: 28px;
+    }
+
+    .Contents__text{
+        font-size: 28px;
+        line-height: 24px;
+    }
+
+    .Contents__alltext{
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .star{
+        display: inline-block;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .star{
+        display: inline-block;
+    }
+
+    .images{
+        width: 50%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .Content__title{
+        font-size: 22px;
+    }
+
+    .Contents__text{
+        padding-top: 35px;
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    .Contents__alltext{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .Contents__block{
+        padding-top: 1px;
+        width: 87.4%;
+        padding-left: 3.85%;
+    }
+
+    .Contents__textOne{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+    .Contents{
+        margin-top: 130px;
+    }
+
+    .star{
+        display: inline-block;
+    }
+    
+    .Contents__wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-left: 6.9%;
+        margin-right: 7.2%;
+        align-items: center;
+    }
+    
+    .Contents__block{
+        padding-top: 35px;
+        text-align: center;
+    }
+    
+    .Content__title{
+        font-size: 22px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .Contents__text{
+        font-size: 22px;
+        line-height: 20px;
+        width: 100%;
+    }
+    
+    .buttons{
+        margin-top: 40px;
+        display: inline-block;
+    }
+    
+    .images{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .Contents{
+        margin-top: 130px;
+    }
+
+    .star{
+        display: inline-block;
+    }
+    
+    .Contents__wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-left: 6.9%;
+        margin-right: 7.2%;
+        align-items: center;
+    }
+    
+    .Contents__block{
+        padding-top: 35px;
+        text-align: center;
+    }
+    
+    .Content__title{
+        font-size: 22px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .Contents__text{
+        font-size: 22px;
+        line-height: 20px;
+        width: 100%;
+    }
+    
+    .buttons{
+        margin-top: 40px;
+        display: inline-block;
+    }
+    
+    .images{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .star{
+        display: inline-block;
+    }
+
+}
